@@ -1,10 +1,26 @@
 Ajoutez une étoile au repo pour soutenir mon travail. 🙏
 
-# RAG Agentique (supérieur en précision au RAS classique) avec récupérateur avancé pour une recherche de documents (meilleur que GPT4o et DeepSeek R1)
+# RAG Agentique multi-agent de document (meilleur que GPT4o et DeepSeek R1)
 
-## Comment fonctionn l'app
-Voici un diagramme.
+## Comment fonctionne l'app
+
+Ce système RAG agentique fonctionne avec 3 agents spécialisés et un récupérateur avancé (BM25 + embeddings) garantissant une haute précision.
+
 ![Projet Overview](./assets/project-overview.jpg)
+
+### Architecture des 3 agents
+
+#### 1. **Agent de Recherche**
+Analyse la question utilisateur et recherche
+
+#### 2. **Vérificateur de Pertinence**
+Évalue si le document récupéré répond réellement à la question
+
+#### 3. **Agent Fact Checker**
+Valide et croise les informations trouvées
+
+### Récupérateur Hybride pour un maximum de pertinence
+- **Algo BM25 + Embeddings** : Recherche texte classique à forte précision lexicale + Recherche sémantique capturant le sens contextuel
 
 ## Installation
 
@@ -17,7 +33,6 @@ git clone https://github.com/julienlucas/agentic-rag-multi-agent
 ```bash
 python3.12 -m venv venv
 source venv/bin/activate
-# Backend Django
 poetry install
 ```
 
