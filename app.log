@@ -819,3 +819,17 @@ body.DocumentURLChunk
 2025-08-27 18:07:17 | INFO | Chunks générés pour /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf: 19
 2025-08-27 18:07:17 | INFO | Chunks sauvegardés en cache pour /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf
 2025-08-27 18:07:17 | INFO | Total des chunks uniques: 19
+2025-08-27 18:15:39 | INFO | Traitement des documents nouveaux/modifiés...
+2025-08-27 18:15:39 | INFO | Début du traitement de 1 fichiers
+2025-08-27 18:15:39 | INFO | Traitement du fichier: /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf
+2025-08-27 18:15:39 | INFO | Chargement depuis le cache: /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf
+2025-08-27 18:15:39 | INFO | Total des chunks uniques: 19
+2025-08-27 18:18:34 | INFO | Traitement des documents nouveaux/modifiés...
+2025-08-27 18:18:34 | INFO | Début du traitement de 1 fichiers
+2025-08-27 18:18:34 | INFO | Traitement du fichier: /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf
+2025-08-27 18:18:34 | INFO | Chargement depuis le cache: /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf
+2025-08-27 18:18:34 | INFO | Total des chunks uniques: 19
+2025-08-27 18:18:34 | INFO | Récupérateur BM25 créé avec succès.
+2025-08-27 18:18:36 | INFO | Magasin de vecteurs créé avec succès.
+2025-08-27 18:18:36 | INFO | Récupérateur de vecteurs créé avec succès.
+2025-08-27 18:18:36 | INFO | Récupérateur hybride créé avec succès.

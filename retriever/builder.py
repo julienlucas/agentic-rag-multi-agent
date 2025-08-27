@@ -3,9 +3,7 @@ from langchain_mistralai import MistralAIEmbeddings
 from langchain_community.retrievers import BM25Retriever
 from langchain.retrievers import EnsembleRetriever
 from config.settings import settings
-import logging
-
-logger = logging.getLogger(__name__)
+from utils.logging import logger
 
 class RetrieverBuilder:
     def __init__(self):
