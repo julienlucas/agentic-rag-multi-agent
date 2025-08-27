@@ -12,6 +12,9 @@ class Settings(BaseSettings):
     MODEL_OCR_ID: str = "mistral-ocr-latest"
     EMBEDDING_MODEL_ID: str = "mistral-embed"
 
+    # Tracking LangSmith (si besoin)
+    LANGSMITH_API_KEY: str = os.getenv("LANGSMITH_API_KEY")
+
     # Paramètres optionnels avec valeurs par défaut
     MAX_FILE_SIZE: int = MAX_FILE_SIZE
     MAX_TOTAL_SIZE: int = MAX_TOTAL_SIZE

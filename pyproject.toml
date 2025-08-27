@@ -26,6 +26,7 @@ rank-bm25 = "^0.2.2"
 torch = "^2.2.0"
 torchvision = "0.17.2"
 mistralai = "^1.9.9"
+langsmith = "^0.4.19"
 
 [build-system]
 requires = ["poetry-core"]

@@ -54,6 +54,19 @@ Puis créer un fichier `.env` avec votre clé :
 MISTRALAI_API_KEY=votre_clé_api_mistral_ici
 ```
 
+Pour surveiller votre application avec LangSmith (si vous le souhaitez) :
+
+1. **Créer un compte LangSmith** : Allez sur [smith.langchain.com](https://smith.langchain.com)
+
+2. **Obtenir votre clé API** : Dans les paramètres de votre compte
+
+3. **Ajouter vos variables d'environnement**
+```bash
+# Configuration LangSmith
+LANGSMITH_API_KEY=votre_cle_api_langsmith_ici
+LANGSMITH_PROJECT=agentic_rag_multi_agent
+```
+
 4. **Lancer l'application** :
 ```bash
 poetry run python app.py

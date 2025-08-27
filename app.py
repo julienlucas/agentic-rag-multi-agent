@@ -6,8 +6,11 @@ import os
 from document_processor.file_handler import DocumentProcessor
 from retriever.builder import RetrieverBuilder
 from agents.workflow import AgentWorkflow
-from config import constants, settings
+from config import constants
+from config.settings import settings
 from utils.logging import logger
+from langsmith import Client
+from langsmith.run_helpers import traceable
 
 # 1) Définir quelques exemples de données
 #    (c'est-à-dire question + chemins vers les documents pertinents pour cette question).
@@ -21,6 +24,14 @@ EXAMPLES = {
         "file_paths": ["examples/DeepSeek Technical Report.pdf"]
     }
 }
+
+# Configuration LangSmith pour le tracking (si besoin)
+os.environ["LANGCHAIN_TRACING_V2"] = "true"
+os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
+os.environ["LANGCHAIN_API_KEY"] = settings.LANGSMITH_API_KEY
+os.environ["LANGCHAIN_PROJECT"] = "agentic_rag_multi_agent"
+
+langsmith_client = Client()
 
 def main():
     processor = DocumentProcessor()

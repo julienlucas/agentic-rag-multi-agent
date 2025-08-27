@@ -794,3 +794,28 @@ body.DocumentURLChunk
 2025-08-27 17:32:59 | INFO | Chunks générés pour /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/42176f693765a479b9b90bd93794c36133f7cbeac2b7ac5b48f26762fdb73452/google-2024-environmental-report.pdf: 191
 2025-08-27 17:32:59 | INFO | Chunks sauvegardés en cache pour /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/42176f693765a479b9b90bd93794c36133f7cbeac2b7ac5b48f26762fdb73452/google-2024-environmental-report.pdf
 2025-08-27 17:32:59 | INFO | Total des chunks uniques: 191
+2025-08-27 17:54:21 | INFO | Traitement des documents nouveaux/modifiés...
+2025-08-27 17:54:21 | INFO | Début du traitement de 1 fichiers
+2025-08-27 17:54:21 | INFO | Traitement du fichier: /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf
+2025-08-27 17:54:21 | INFO | Traitement et mise en cache: /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf
+2025-08-27 17:54:21 | INFO | Fichier lu, taille: 1312189 bytes
+2025-08-27 17:54:27 | INFO | Chunks générés pour /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf: 19
+2025-08-27 17:54:27 | ERROR | Échec du traitement de /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf: [Errno 2] No such file or directory: 'document_cache/52d8ca3ac93e88cef9944e1fd03b0e04aec5954495a8250fb2fadf8fa20a4dad.pkl'
+2025-08-27 17:54:27 | INFO | Total des chunks uniques: 0
+2025-08-27 17:54:27 | ERROR | Erreur de traitement: not enough values to unpack (expected 3, got 0)
+2025-08-27 17:55:28 | INFO | Traitement des documents nouveaux/modifiés...
+2025-08-27 17:55:28 | INFO | Début du traitement de 1 fichiers
+2025-08-27 17:55:28 | INFO | Traitement du fichier: /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf
+2025-08-27 17:55:28 | INFO | Traitement et mise en cache: /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf
+2025-08-27 17:55:28 | INFO | Fichier lu, taille: 1312189 bytes
+2025-08-27 17:55:33 | INFO | Chunks générés pour /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf: 19
+2025-08-27 17:55:33 | INFO | Chunks sauvegardés en cache pour /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf
+2025-08-27 17:55:33 | INFO | Total des chunks uniques: 19
+2025-08-27 18:07:11 | INFO | Traitement des documents nouveaux/modifiés...
+2025-08-27 18:07:11 | INFO | Début du traitement de 1 fichiers
+2025-08-27 18:07:11 | INFO | Traitement du fichier: /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf
+2025-08-27 18:07:11 | INFO | Traitement et mise en cache: /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf
+2025-08-27 18:07:11 | INFO | Fichier lu, taille: 1312189 bytes
+2025-08-27 18:07:17 | INFO | Chunks générés pour /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf: 19
+2025-08-27 18:07:17 | INFO | Chunks sauvegardés en cache pour /private/var/folders/cy/z7nhnlc10d90p9qxxqsv82jw0000gn/T/gradio/076bc31f895ad659d962a649a125c4dc03e18df7d4db4dbc9016b5daa192ae59/DeepSeek Technical Report.pdf
+2025-08-27 18:07:17 | INFO | Total des chunks uniques: 19
