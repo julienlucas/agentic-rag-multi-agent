@@ -4,6 +4,7 @@ from langchain_community.document_loaders import PyPDFLoader
 import os
 
 ### 🔹 Analyse PDF avec Docling
+### Un OCR très capable - tableaux, diagrammes bien décryptés, ect... mais très lent)
 def parse_with_docling(pdf_path):
     """
     Analyse un PDF en utilisant Docling, extrait le contenu markdown,

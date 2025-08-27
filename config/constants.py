@@ -1,8 +1,8 @@
-# Maximum allowed size for a single file (50 MB)
+# Taille maximale autorisée pour un seul fichier (50 MB)
 MAX_FILE_SIZE: int = 50 * 1024 * 1024
 
-# Maximum allowed total size for all uploaded files (200 MB)
+# Taille maximale autorisée pour tous les fichiers téléchargés (200 MB)
 MAX_TOTAL_SIZE: int = 200 * 1024 * 1024
 
-# Allowed file types for upload
+# Types de fichiers autorisés pour le téléchargement
 ALLOWED_TYPES: list = [".txt", ".pdf", ".docx", ".md"]

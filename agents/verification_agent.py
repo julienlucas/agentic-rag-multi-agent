@@ -90,7 +90,7 @@ class VerificationAgent:
                     elif key == "Additional Details":
                         verification[key] = ""
                     else:
-                        verification[key] = "NO"
+                        verification[key] = "NON"
 
             return verification
         except Exception as e:
@@ -101,10 +101,10 @@ class VerificationAgent:
         """
         Formater le dictionnaire de rapport de vérification en un paragraphe lisible.
         """
-        supported = verification.get("Supported", "NO")
+        supported = verification.get("Supported", "NON")
         unsupported_claims = verification.get("Unsupported Claims", [])
         contradictions = verification.get("Contradictions", [])
-        relevant = verification.get("Relevant", "NO")
+        relevant = verification.get("Relevant", "NON")
         additional_details = verification.get("Additional Details", "")
 
         report = f"**Supporté:** {supported}\n"
@@ -157,10 +157,10 @@ class VerificationAgent:
         except (IndexError, KeyError) as e:
             print(f"Structure de réponse inattendue: {e}")
             verification_report = {
-                "Supported": "NO",
+                "Supported": "NON",
                 "Unsupported Claims": [],
                 "Contradictions": [],
-                "Relevant": "NO",
+                "Relevant": "NON",
                 "Additional Details": "Structure de réponse invalide du modèle."
             }
             verification_report_formatted = self.format_verification_report(verification_report)
@@ -176,10 +176,10 @@ class VerificationAgent:
         if not sanitized_response:
             print("Le LLM a retourné une réponse vide.")
             verification_report = {
-                "Supported": "NO",
+                "Supported": "NON",
                 "Unsupported Claims": [],
                 "Contradictions": [],
-                "Relevant": "NO",
+                "Relevant": "NON",
                 "Additional Details": "Réponse vide du modèle."
             }
         else:
@@ -188,10 +188,10 @@ class VerificationAgent:
             if verification_report is None:
                 print("Le LLM n'a pas répondu avec le format attendu. Utilisation du rapport de vérification par défaut.")
                 verification_report = {
-                    "Supported": "NO",
+                    "Supported": "NON",
                     "Unsupported Claims": [],
                     "Contradictions": [],
-                    "Relevant": "NO",
+                    "Relevant": "NON",
                     "Additional Details": "Échec du parsing de la réponse du modèle."
                 }
 

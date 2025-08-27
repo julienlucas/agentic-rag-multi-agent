@@ -1,3 +1,5 @@
+![RAG Agentique multi-agent Header](./assets/header_agentic_rag.png)
+
 # RAG Agentique multi-agent haute précision sans hallucinations (meilleur que GPT4o et DeepSeek R1)
 
 Ce système RAG agentique fonctionne avec 3 agents spécialisés et un récupérateur avancé (BM25 + embeddings) garantissant une haute précision dans la recherche de documents.
@@ -24,6 +26,11 @@ Valide et croise les informations trouvées.
 
 ### Le système inclut un retriever hybride pour maximiser la pertinence
 - **Algo BM25 + Embeddings** : Recherche texte classique à forte précision lexicale + Recherche sémantique capturant le sens contextuel.
+
+## Stack de modèles
+- 💎 Mistral Large
+- 🧠 Mistral Embbed (pour les embeddings)
+- ⚡ Mistral OCR (plutôt que docling trop lent)
 
 ## Installation
 
